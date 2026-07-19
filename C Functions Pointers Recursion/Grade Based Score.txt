@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int ch;
+    float a,b;
+
+    scanf("%d%f%f",&ch,&a,&b);
+
+    switch(ch)
+    {
+        case 1:
+            printf("%.2f",a*a);
+            break;
+        case 2:
+            printf("%.2f",a*b);
+            break;
+        case 3:
+            printf("%.2f",3.14*a*a);
+            break;
+        default:
+            printf("Invalid");
+    }
+
+    return 0;
+}
